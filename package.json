@@ -1,0 +1,36 @@
+{
+  "name": "mitlman-speed-insights",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Comprehensive website performance analysis dashboard with Core Web Vitals monitoring",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "@vercel/analytics": "^1.5.0",
+    "lucide-react": "^0.474.0",
+    "recharts": "^2.15.3",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.3",
+    "autoprefixer": "^10.4.21",
+    "@tailwindcss/typography": "^0.5.16"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
